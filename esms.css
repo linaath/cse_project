@@ -1,10 +1,136 @@
 @import url('https://fonts.cdnfonts.com/css/bebas-neue');
 @import url('https://fonts.cdnfonts.com/css/5x5-dots');
-/*  fonts will be applied after only writing the line of code like this 
-   font-family: 'font'(soit bebas ou dots ), sans-serif ; */
+
 body {
+    /*Fullviewportheight*/
     margin: 0;
-    height: 100vh;
-    /* Full viewport height */
-    background: linear-gradient(to right, #243819 5%, #1a1e11 20%, #1a1e11 80%, #243819 95%); /* background color not to be changed */
+    min-height: 100vh;
+    background:
+        linear-gradient(to right, #3c4829a0, transparent 8%, transparent 92%, #3c4829a0),
+        radial-gradient(circle, #1A1A19 50%, #121212 80%);
+    background-blend-mode: screen;
+    /* Blend the linear and radial gradients */
+}
+
+
+.agenda1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 10rem 7rem 10rem 7rem;
+}
+
+.agend-title {
+
+    text-align: center;
+}
+
+.title-ag {
+    color: #859F3D;
+    text-align: center;
+    font-family: '5x5 Dots', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    justify-content: center;
+}
+
+.day1,
+.day2 {
+    cursor: pointer;
+    padding: 1.3rem 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+
+.day1 {
+    color: #ffffff;
+    background: #444;
+}
+
+.day2 {
+    color: #484848;
+    background-color: #44444453;
+
+}
+
+.d-1,
+.d-2 {
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 5px 1px 1px 1px;
+}
+
+
+.days-content {
+    background: #1a1a1947;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 2rem;
+    border-radius: 26px;
+    border: 1px solid #859F3D;
+    box-shadow: 1px 5px 30.3px -6px #31511E;
+}
+
+
+.dp-c {
+    padding: 3rem;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-c {
+    text-align: center;
+}
+
+.c-title {
+    font-size: 45px;
+    margin: 10px 0;
+    color: #859F3D;
+    text-transform: uppercase;
+}
+
+.time {
+    color: rgba(249, 253, 231, 0.39);
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+.con-des {
+    margin: 0;
+    line-height: 35px;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.h-sp {
+    color: #fffffe;
+}
+
+.d2-co {
+    color: #ffffff;
+    display: none;
 }

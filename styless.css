@@ -1,0 +1,131 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/5x5-dots');
+ 
+body {
+  margin: 0;
+  height: 100vh;
+  background:
+  linear-gradient(to right, #3c4829a0, transparent 8%, transparent 92%, #3c4829a0),
+  radial-gradient(circle, #1A1A19 50%, #121212 80%);
+background-blend-mode: screen;
+}
+
+.role_section{
+  padding: 0;
+  font-family:'bebas-neue', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 100px;
+  color: #ffffff; /* Le texte "Team" est en blanc */
+  font-family: '5x5 Dots';
+  text-align: left; /* Alignement du texte à gauche */
+  width: 100%; /* Prend toute la largeur */
+  margin-left: 0; /* Réinitialise le décalage à gauche */
+  padding-left: 0px; /* Ajoute un léger espace pour éviter que le texte ne touche le bord */
+}
+
+.title span {
+  color: #859F3D; /* Le mot "Roles" est en vert */
+}
+
+.roles {
+  display: grid;
+  grid-template-columns: 365px 365px;
+  column-gap: 10px;
+  row-gap: 150px;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.role {
+  background-color: rgba(33, 33, 43, 0.50);
+  border: 1.577px solid #859F3D;
+  padding: 15px;
+  border-radius: 20.496px;
+  position: relative;
+  box-shadow: 0px 6.307px 62.435px 0px rgba(133, 159, 61, 0.38);
+  width: 250px;
+  height: 100px;
+  text-align: left;
+  
+}
+
+.role h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #ffffff; /* Titre des rôles en blanc */
+}
+
+.role p {
+  font-size: 0.9rem;
+  color: #9C9C9C; /* Texte en gris clair */
+}
+
+/* Connecteurs */
+.connector-vertical {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+}
+
+.connector-vertical.bottom {
+  bottom: 50%;
+  left: 50%;
+  transform: translate(130%, 90%);
+  background-image: url('icon_attac.png');
+}
+
+.connector-vertical.left {
+  top: 50%;
+  left: 50%;
+  transform: translate(-185%, -10%);
+  background-image: url('icon_deffender.png');
+}
+
+.connector-vertical.top {
+  top: 50%;
+  left: 50%;
+  transform: translate(130%, -120%);
+  background-image: url('icon_mid.png');
+}
+
+.connector-vertical.right {
+  top: 50%;
+  right: 50%;
+  transform: translate(-85%, -120%);
+  background-image: url('icon_joker.png');
+}
+
+.connector-horizontal {
+  display: none;
+}
+
+.roles::before {
+  content: none;
+  display: none;
+}

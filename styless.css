@@ -1,8 +1,16 @@
 @import url('https://fonts.cdnfonts.com/css/bebas-neue');
 @import url('https://fonts.cdnfonts.com/css/5x5-dots');
-
+ 
 body {
   margin: 0;
+  height: 100vh;
+  background:
+  linear-gradient(to right, #3c4829a0, transparent 8%, transparent 92%, #3c4829a0),
+  radial-gradient(circle, #1A1A19 50%, #121212 80%);
+background-blend-mode: screen;
+}
+
+.role_section{
   padding: 0;
   font-family:'bebas-neue', sans-serif;
   font-weight: 400;
@@ -11,12 +19,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background:
-    linear-gradient(to right, #303920, transparent 8%, transparent 92%, #303920),
-    radial-gradient(circle, #1A1A19 50%, #121212 80%);
-  background-blend-mode: screen;
 }
+
 
 .container {
   width: 80%;
@@ -33,7 +37,7 @@ body {
   font-size: 2rem;
   margin-bottom: 100px;
   color: #ffffff; /* Le texte "Team" est en blanc */
-  font-family: '5x5 Dots', sans-serif;
+  font-family: '5x5 Dots';
   text-align: left; /* Alignement du texte à gauche */
   width: 100%; /* Prend toute la largeur */
   margin-left: 0; /* Réinitialise le décalage à gauche */

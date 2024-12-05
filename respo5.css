@@ -1,0 +1,388 @@
+@media screen and (max-width:767px) {
+    header {
+        padding: 0 1rem;
+        margin: 1rem;
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 85%;
+    }
+
+    .nav,
+    .b-st {
+        display: none;
+    }
+
+    .phone-ver {
+        display: block;
+    }
+
+    .logo {
+        margin-top: 50px;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .mob-nav {
+        display: none;
+    }
+
+    .del svg {
+        cursor: pointer;
+        width: 50px;
+    }
+
+    .c-links2 {
+        padding: 0;
+        list-style: none;
+    }
+
+    .c-links2 li {
+        padding: 1rem 0;
+        border-bottom: 2px solid #F6FCDF;
+        ;
+    }
+
+    .l-2 {
+
+        font-family: 'Bebas Neue', sans-serif;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .page1 {
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .logo {
+        margin-right: 3rem;
+    }
+
+    .img-l {
+        width: 100%;
+    }
+
+    .b-h {
+        font-size: 2rem;
+        line-height: 50px;
+        margin: 1rem 0;
+    }
+
+    .text {
+        width: auto;
+    }
+
+    .f-text {
+        font-size: 30px;
+    }
+
+    .register,
+    .tes-s {
+        margin: 4rem 1rem 0;
+    }
+
+    .sp-co svg {
+        width: 56px;
+    }
+
+    .circle-container {
+        margin: 2rem 0;
+        gap: 1rem;
+    }
+
+    .circle {
+        width: 110px;
+        height: 110px;
+
+    }
+
+    .h-sp {
+        line-height: 40px;
+    }
+
+    .circle .label {
+        font-size: 20px;
+    }
+
+    .page2 {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .text2 {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .text2 p {
+        font-size: 25px;
+    }
+
+    video {
+        width: 100%;
+        height: 230px;
+    }
+
+    .title {
+        margin: 2rem 0 4rem 2rem;
+        font-size: 35px;
+    }
+
+    .role_section {
+        margin: 3rem 1rem;
+        display: block;
+    }
+
+    .container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .connector-vertical,
+    .connector-horizontal {
+        display: none;
+    }
+
+    .roles div {
+        width: 85%;
+    }
+
+    .roles {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .agenda1 {
+        margin: 2rem 1rem;
+    }
+
+    .days {
+        gap: 2rem;
+    }
+
+    .day1,
+    .day2 {
+        padding: 1rem 2rem;
+    }
+
+    .days-content {
+        margin: 0;
+    }
+
+    .h-sp {
+        margin: 2rem 0;
+    }
+
+    .dp-c {
+        padding: 1rem;
+    }
+
+    .content {
+        display: block;
+    }
+
+    .c-c {
+        text-align: left;
+    }
+
+    .c-title {
+        font-size: 30px;
+    }
+
+    .con-des {
+        font-size: 30px;
+    }
+
+    .carousel-section {
+        display: none;
+    }
+
+    .sponsors {
+        margin: 3rem 1rem;
+    }
+
+    .h-sp {
+        font-size: 30px;
+    }
+
+    .sp-m {
+        margin: 3rem 0;
+    }
+
+    .infos {
+        margin: 10rem 1rem;
+    }
+
+    .sp-me {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 150px;
+        margin-right: 40px;
+    }
+
+    .iframe {
+        width: 360px;
+    }
+
+    .pre-btn,
+    .nxt-btn {
+        top: 20%;
+    }
+
+    .g-map {
+        width: 100%;
+    }
+
+    .map {
+        gap: 2rem;
+
+    }
+
+    .esi-a {
+        line-height: 50px;
+    }
+
+    .esi-n {
+        font-size: 30px;
+        margin: 1rem;
+
+        text-align: center;
+    }
+
+    .flex-c {
+        width: 100%;
+        gap: 4rem;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    .ft-text {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+    header {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    nav a {
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    .btn1 {
+        font-size: 30px;
+    }
+
+    .page1 {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    video {
+        width: 600px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .tes-s,
+    .page1 {
+        margin: 3rem;
+    }
+
+    .page2 {
+
+        flex-direction: column;
+    }
+
+    .text2 {
+        margin-top: 3rem;
+        width: 100%;
+    }
+
+    .ft-text {
+        font-size: 19px;
+    }
+
+    .connector-vertical,
+    .connector-horizontal {
+        display: none;
+    }
+
+    .roles {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .role {
+        width: 90%;
+    }
+
+    .container {
+        margin: 1rem;
+    }
+
+    .agenda1 {
+        margin: 1rem;
+    }
+
+    .carousel-section {
+        display: none;
+    }
+
+    .days-content {
+        width: 100%;
+    }
+
+    .days-content {
+        width: fit-content;
+    }
+
+    .content {
+        width: 650px;
+    }
+
+    .dp-c {
+        padding: 1rem;
+    }
+
+    .mr-s {
+        margin: 2rem;
+    }
+
+    .flex-c {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .sponsors {
+        margin: 5rem 2rem;
+    }
+
+    .pre-btn,
+    .nxt-btn {
+        top: 17%;
+    }
+}
